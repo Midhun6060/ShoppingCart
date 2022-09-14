@@ -1,12 +1,19 @@
 package com.example.shopping;
 
 public class OrderResponse {
+	int orderId;
 	int apples = 0;
 	int oranges = 0;
 	int applesCost = 0;
 	int orangesCost = 0;
 	int totalCost = 0;
 	
+	public int getOrderId() {
+		return orderId;
+	}
+	public void setOrderId(int orderId) {
+		this.orderId = orderId;
+	}
 	public int getApples() {
 		return apples;
 	}
